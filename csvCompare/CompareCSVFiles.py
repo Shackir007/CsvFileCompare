@@ -26,6 +26,7 @@ def read_header_csv(file_name):
         header_line = file.readline()
         header_columns = header_line.split(",")
         print("Column:" + header_columns)
+
         file.close()
 
         return header_columns
